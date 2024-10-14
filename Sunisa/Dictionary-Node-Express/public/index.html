@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Resume</h1>
+        <nav>
+            <ul>
+                <li><button onclick="showSection('home')">Home</button></li>
+                <li><button onclick="showSection('experience')">Experience</button></li>
+                <li><button onclick="showSection('projects')">Projects</button></li>
+                <li><button onclick="showSection('contact')">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="content">
+            <h2>Home</h2>
+            <p>Hello My Sunisa Takoonchansiri.</p>
+            <div class="profile-image">
+                <img src="https://scontent.fbkk12-5.fna.fbcdn.net/v/t39.30808-6/453207503_3908951196048241_3713962329571057840_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=tYCSPy_clVYQ7kNvgGv28Zf&_nc_ht=scontent.fbkk12-5.fna&oh=00_AYCq72R1-VCBClMp5Q8AiM8IYnllEsY40Pz-p50Kkb5b5w&oe=66C81BE5" alt=" ">
+            </div>
+            <h3>จุดแข็ง</h3>
+            <ul>
+                <li>มีความตั้งใจและรับผิดชอบ</li>
+                <li>สามารถทำงานเป็นทีมได้ดี</li>
+                <li>ปรับตัวเข้าหากับผู้อื่นได้ดี</li>
+            </ul>
+            <h3>จุดอ่อน</h3>
+            <ul>
+                <li>ไม่กล้าแสดงออก</li>
+                <li>อารมณ์ร้อน</li>
+            </ul>
+            <h3>ทักษะ</h3>
+            <ul>
+                <li>Programming Languages: JavaScript, Python, HTML/CSS</li>
+                <li>Tools: GitHub</li>
+            </ul>
+            <h3>Projects</h3>
+            <ul>
+                <li><button onclick="showSection('projects')">View Projects</button></li>
+            </ul>
+        </section>
+
+        <section id="experience" class="content">
+            <h2>Experience</h2>
+            <h3>Experience</h3>
+            <ul>
+                <li>
+                    <strong> เข้าร่วมอบรมการพัฒนาระแบบ IoT โดยใช้ ESP32 MQTT และ Node-Red</strong> 
+                </li>
+                <li>
+                    <strong> เข้าร่วมอบรมการพัฒนา Android Mobile Application ด้วย Flutter สำหรับผู้เริ่มต้น</strong> 
+                </li>
+                <li>
+                    <strong> เข้าร่วมกิจกรรมระบายศิลป์</strong>
+                    
+                </li>
+            </ul>
+            <h3>Education</h3>
+            <ul>
+                <li>
+                    <strong>ประถมศึกษา : โรงเรียนวัดวังปลาจืด</strong> (2019 - 2023)
+        
+                </li>
+                <li>
+                    <strong>มัธยมศึกษา : โรเงรียนปิยชาติพัฒนา ในพระราชูปถัมภ์</strong> (2015 - 2019)
+
+                </li>
+                <li>
+                    <strong>อุดมศึกษา : มหาวิทยาลัยศิลปากร </strong> (2015 - 2019)
+
+                </li>
+            </ul>
+        </section>
+        
+        <section id="projects" class="content" style="display: none;">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>รายงานศึกษาบทควาามวิชาการ เรื่องผลกระทบของขนาดเครื่องเก็บเกี่ยวพลังงานเพียโซอิเล็กทริกสำหรับถนนที่มีคุณสมบัติทางไฟฟ้า</p>
+                
+            </div>
+        </section>
+        
+
+        <section id="contact" class="content" style="display: none;">
+            <h2>Contact</h2>
+            <p>Email: Takoonchansiri_S@silpakorn.edu</p>
+            <p>FaceBook: <a href="https://www.instagram.com/meenniesunisa?igsh=am00d3VmaXpkbTNh&utm_source=qr" target="_blank"> View Profile </a></p>
+            <p>IG: <a href="https://www.instagram.com/ssurawutmt/" target="_blank"> View Profile </a></p>
+            <p>Phone: <a href="0815819667" target="_blank"> View Profile </a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Sunisa Takoonchansiri</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
